@@ -1,9 +1,10 @@
 {
-  "name": "whatsappnotes",
+  "name": "rizqiramadhannn-money-manager",
   "version": "1.0.0",
   "main": "text.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node text.js"
   },
   "keywords": [],
   "author": "",

@@ -197,3 +197,17 @@ async function getConfig(type) {
 }  
   
 client.initialize();
+
+exports.handler = async (event, context) => {  
+    // Your existing message handling logic here  
+    // For example, you can access the message from event.body  
+    const msg = JSON.parse(event.body);  
+  
+    // Process the message as you did in your original code  
+    // Call your existing functions like appendToSheet, addSomething, etc.  
+  
+    return {  
+        statusCode: 200,  
+        body: JSON.stringify({ message: 'Function executed successfully!' }),  
+    };  
+};
